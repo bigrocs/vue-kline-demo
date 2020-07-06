@@ -56,8 +56,8 @@ export class DarkTheme extends Theme {
         super();
         this._colors = [];
 
-        this._colors[Theme.Color.Positive] = "#19b34c";
-        this._colors[Theme.Color.Negative] = "#990e0e";
+        this._colors[Theme.Color.Positive] = "#00FFFF";
+        this._colors[Theme.Color.Negative] = "#FF3C39";
         this._colors[Theme.Color.PositiveDark] = "#004718";
         this._colors[Theme.Color.NegativeDark] = "#3b0e08";
 

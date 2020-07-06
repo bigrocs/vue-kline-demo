@@ -25,7 +25,7 @@ export default {
         symbolName: "BTC/USD",
         intervalTime: 5000,
         depthWidth: 50,
-        count: 1,
+        count: 2,
       },
       klineData: data,
     };

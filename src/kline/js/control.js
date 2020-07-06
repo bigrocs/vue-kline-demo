@@ -430,6 +430,7 @@ export class Control {
             tmp.charts.indicsStatus = 'open';
             ChartSettings.save();
             let value = tmp.charts.indics[1];
+            ChartManager.instance.getChart().setIndicator(1, tmp.charts.indics[0]);
             ChartManager.instance.getChart().setIndicator(1, value);
             $("#chart_tabbar").find('a').each(function () {
                 if ($(this).attr('name') === value)
